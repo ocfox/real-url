@@ -7,9 +7,9 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     python_requires=">=3.10, <4",
-    # entry_points={
-    #     "console_scripts": [
-    #         "real-url=real-url:main",
-    #     ],
-    # },
+    entry_points={
+        "console_scripts": [
+            "real-url=real-url:main"
+        ]
+    },
 )

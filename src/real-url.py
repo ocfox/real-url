@@ -2,6 +2,7 @@ import bilibili
 import douyu
 import huya
 import argparse
+import sys
 
 def main():
     parser = argparse.ArgumentParser()
